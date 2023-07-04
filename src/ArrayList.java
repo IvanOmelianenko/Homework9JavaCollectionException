@@ -48,8 +48,10 @@ public class ArrayList {
             list.remove("Ten");
             list.remove("Nine");
             list.remove("Eight");
+//            Switch to linked list
             list = new LinkedList<>();
             list.set(0, "Changed from One");
+
 
 
         }

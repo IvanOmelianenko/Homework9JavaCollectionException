@@ -3,6 +3,7 @@ package Car;
 public class Test {
     public static void main(String[] args) {
         Car car = new Car();
+        car.setEngine("Diesel");
         try {
             car.setMaxSpeed(310);
         } catch (OverMaxSpeedException ignored) {
